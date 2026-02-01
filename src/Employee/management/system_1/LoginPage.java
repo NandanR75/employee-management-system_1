@@ -22,7 +22,7 @@ public class LoginPage extends JFrame {
         setLayout(null);
             setVisible(true);
             setLocationRelativeTo(null);
-            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);k
 
             JLabel label = new JLabel("Login Page");
             label.setBounds(150, 120, 100, 30);
