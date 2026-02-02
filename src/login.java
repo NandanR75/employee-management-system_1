@@ -76,7 +76,9 @@ public class login extends JFrame implements ActionListener {
         if (e.getSource() == login) {
             try {
                 String username = tusername.getText();
-                String password = tuser_password.getText();
+                String password;
+                password = new String(tuser_password.getPassword());
+
 
                 var conn = new Conne();
                 String sql = "INSERT INTO login (username, user_password) VALUES (?, ?)";

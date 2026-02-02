@@ -1,4 +1,4 @@
-package Employee.management.system_1;
+
 import Employee.management.system_1.LoginPage;
 
 import javax.swing.*;
