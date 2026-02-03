@@ -10,7 +10,9 @@ import java.sql.SQLException;
 
 public class LoginPage extends JFrame {
     conn c;
-    private Agent tfUsername;
+    private JTextField tfUsername;
+
+
     private JPasswordField pfPassword;
 
 
